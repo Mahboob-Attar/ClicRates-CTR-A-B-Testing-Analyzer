@@ -43,33 +43,10 @@ Even small improvements in CTR can drive large increases in conversions and reve
 
 This project performs a complete evaluation of CTR data using the `click_rates.csv` dataset.
 
-### Key Features
-
-Computes the click-through rate for each headline.
-  
-Generates bar charts to visually compare headline performance.
- 
-Determines whether differences in clicks across all headlines are statistically significant.
-
-Performs pairwise tests between headlines to identify statistically significant winners.
- 
-Visualizes how many users clicked or ignored each headline.
-
----
-
 ## 🧠 Insights
 
 ClicRates not only computes CTR but also incorporates statistical testing to ensure that decisions are backed by evidence, not assumptions.  
 It helps marketers, product designers, and data analysts make informed choices based on real user behavior.
-
----
-
-## 🚀 Use Cases
-
-- Marketing A/B experiments  
-- Headline or UI element testing  
-- Content optimization for engagement  
-- Product design feedback
 
 ---
 
