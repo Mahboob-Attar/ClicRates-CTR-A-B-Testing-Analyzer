@@ -12,7 +12,7 @@ It provides a simple yet powerful way to determine which headline performs best 
 The formula is:
 
 \[
-CTR = \frac{\text{Number of Clicks}}{\text{Total Views}}
+CTR = (Number of Clicks)\(Total Views)*100
 \]
 
 CTR helps us understand:
@@ -45,19 +45,14 @@ This project performs a complete evaluation of CTR data using the `click_rates.c
 
 ### Key Features
 
-✔ **CTR Calculation**  
 Computes the click-through rate for each headline.
-
-✔ **CTR Comparison Plot**  
+  
 Generates bar charts to visually compare headline performance.
-
-✔ **Chi-Square Significance Test**  
+ 
 Determines whether differences in clicks across all headlines are statistically significant.
 
-✔ **Pairwise A/B Z-Tests**  
 Performs pairwise tests between headlines to identify statistically significant winners.
-
-✔ **Clicks vs No-Clicks Heatmap**  
+ 
 Visualizes how many users clicked or ignored each headline.
 
 ---
@@ -75,29 +70,6 @@ It helps marketers, product designers, and data analysts make informed choices b
 - Headline or UI element testing  
 - Content optimization for engagement  
 - Product design feedback
-
----
-
-## 📂 Input File
-
-**File:** `click_rates.csv`
-
-Expected format:
-
-| Headline | Clicks | Views |
-|-----------|---------|-------|
-| Headline A | 120 | 1500 |
-| Headline B | 190 | 1700 |
-
----
-
-## 📊 Output
-
-- CTR summary table  
-- Bar plot comparison  
-- Chi-square test result  
-- Pairwise Z-test results  
-- Clicks vs No-clicks heatmap
 
 ---
 
