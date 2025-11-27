@@ -12,7 +12,7 @@ It provides a simple yet powerful way to determine which headline performs best 
 The formula is:
 
 \[
-CTR = (Number of Clicks)\(Total Views)*100
+CTR = (Number of Clicks)/(Total Views)*100
 \]
 
 CTR helps us understand:
